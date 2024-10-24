@@ -4,14 +4,26 @@
 
 ## Getting started
 
-In the DDEV project directory launch the command:
+In the DDEV project directory:
+
+For DDEV v1.23.5 or above run
+
+```sh
+ddev add-on get machine-rc/ddev-frontend-nextjs
+```
+
+For earlier versions of DDEV run
+
 ```sh
 ddev get machine-rc/ddev-frontend-nextjs
 ```
+
 Restart the DDEV instance:
+
 ```sh
 ddev restart
 ```
+
 Access NextJS frontend application on defined port (or `3003` default) via the url: https://your-project-name.ddev.site:3003/
 
 ## Setup Instructions
